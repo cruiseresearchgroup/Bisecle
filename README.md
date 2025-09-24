@@ -57,7 +57,7 @@ bisecle/
     bash setup.sh
     ```
 
-    *(Alternatively, you can manually install the modules in setup.sh:*
+    *Alternatively, you can manually install the modules in setup.sh:*
     
     
 ## 🔧 Running the experiments
