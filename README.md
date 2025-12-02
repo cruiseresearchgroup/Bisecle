@@ -98,7 +98,7 @@ python train_starQA.py --batch_size 16 --adapter_layer 32 --tqcp_weight 0.1 --we
 Bisecle achieves state-of-the-art performance in continual VideoQA on three popular benchmarks: **NExT-QA, DramaQA, and STAR**.
 
 <p align="center">
-  <img src=".idea/main_results.png" alt="Main Results" width="600">
+  <img src=".idea/main_results.png" alt="Main Results" width="650">
 </p>
 
 ## 🔍 Ablation Studies
@@ -107,14 +107,14 @@ Bisecle achieves state-of-the-art performance in continual VideoQA on three popu
 We find that the loss terms $\mathcal{L}_Q$ and $\mathcal{L}_P$ contribute most to the overall performance.
 
 <p align="center">
-  <img src=".idea/Ablation_losses.png" alt="Ablation 1" width="700">
+  <img src=".idea/Ablation_losses.png" alt="Ablation 1" width="650">
 </p>
 
 ### 2. Robustness to data and model size
 Bisecle remains robust in limited-data settings and performs consistently across different LLM-based backbone sizes.
 
 <p align="center">
-  <img src=".idea/ablation_missing_data.png" alt="Ablation 2" width="700">
+  <img src=".idea/ablation_missing_data.png" alt="Ablation 2" width="650">
 </p>
 
 
