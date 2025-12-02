@@ -1,4 +1,4 @@
-# Bisecle: Binding and Separation in Continual Learning for Video Language Understanding
+# <img src=".idea/teaser.png" alt="Teaser" width="150"> Bisecle: Binding and Separation in Continual Learning for Video Language Understanding
 
 This repository provides the official implementation of **Bisecle**,
 
@@ -11,10 +11,6 @@ Bisecle is a neurobiology-inspired continual learning framework specifically des
 
 
 ## 🧠 Core Contributions
-
-<p align="center">
-  <img src=".idea/teaser.png" alt="Teaser" width="250">
-</p>
 
 1. **Multi-Directional Supervision Module**
 
