@@ -98,7 +98,7 @@ python train_starQA.py --batch_size 16 --adapter_layer 32 --tqcp_weight 0.1 --we
 Bisecle achieves state-of-the-art performance in continual VideoQA on three popular benchmarks: **NExT-QA, DramaQA, and STAR**.
 
 <p align="center">
-  <img src=".idea/main_results.png" alt="Main Results" width="700">
+  <img src=".idea/main_results.png" alt="Main Results" width="600">
 </p>
 
 ## 🔍 Ablation Studies
