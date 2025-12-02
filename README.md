@@ -11,6 +11,11 @@ Bisecle is a neurobiology-inspired continual learning framework specifically des
 
 
 ## 🧠 Core Contributions
+
+<p align="center">
+  <img src=".idea/teaser.png" alt="Teaser" width="250">
+</p>
+
 1. **Multi-Directional Supervision Module**
 
 Inspired by the mechanism of hippocampus to achieve rapid binding over multiple modalities, linking multimodal information dynamically into cohesive memory.
@@ -22,7 +27,13 @@ Addresses inter-task prompt conflicts using contrastive learning, promoting sema
 
 ## 🏗️ Overall Framework
 
+<p align="center">
+  <img src=".idea/Framework.png" alt="Overall framework" width="800">
+</p>
 
+Our framework comprises two key modules:
+- **Multidirectional supervision**, which not only learns from standard VideoQA signals but also predicts one modality (e.g. questions) from others (videos and answers).
+- **Contrastive prompt learning**, which encourages the model to learn both task-specific and task-shared prompt features for better generalisation across tasks.
 
 
 ## 📁 Project Structure
@@ -84,10 +95,39 @@ python train_starQA.py --batch_size 16 --adapter_layer 32 --tqcp_weight 0.1 --we
 
 ## 📊 Experimental Results
 
+Bisecle achieves state-of-the-art performance in continual VideoQA on three popular benchmarks: **NExT-QA, DramaQA, and STAR**.
+
+<p align="center">
+  <img src=".idea/main_results.png" alt="Main Results" width="700">
+</p>
 
 ## 🔍 Ablation Studies
 
+### 1. Effect of different loss components
+We find that the loss terms $\mathcal{L}_Q$ and $\mathcal{L}_P$ contribute most to the overall performance.
+
+<p align="center">
+  <img src=".idea/Ablation_losses.png" alt="Ablation 1" width="700">
+</p>
+
+### 2. Robustness to data and model size
+Bisecle remains robust in limited-data settings and performs consistently across different LLM-based backbone sizes.
+
+<p align="center">
+  <img src=".idea/ablation_missing_data.png" alt="Ablation 2" width="700">
+</p>
+
+
 ## 🎨 Qualitative Results
+
+We show representative qualitative examples from Bisecle illustrating:
+- how our model reasons over complex video–question interactions, and  
+- how it maintains consistent predictions across tasks in a continual setting.
+
+<p align="center">
+  <img src=".idea/quali_samples_1.png" alt="Qualitative examples 1" width="44%">
+  <img src=".idea/quali_samples_2.png" alt="Qualitative examples 2" width="52%">
+</p>
 
 
 ## 📝 Citation
