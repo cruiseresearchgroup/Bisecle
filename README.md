@@ -20,6 +20,10 @@ Inspired by the mechanism of hippocampus to achieve rapid binding over multiple 
 Addresses inter-task prompt conflicts using contrastive learning, promoting semantic separation and preventing forgetting.
 
 
+## 🏗️ Overall Framework
+
+
+
 
 ## 📁 Project Structure
 ```bash
@@ -77,6 +81,14 @@ python train_dramaQA.py --batch_size 4 --adapter_layer 32 --tqcp_weight 1 --weig
 ```
 python train_starQA.py --batch_size 16 --adapter_layer 32 --tqcp_weight 0.1 --weight_decay 0.1
 ```
+
+## 📊 Experimental Results
+
+
+## 🔍 Ablation Studies
+
+## 🎨 Qualitative Results
+
 
 ## 📝 Citation
 If you find this work helpful, please consider citing:
