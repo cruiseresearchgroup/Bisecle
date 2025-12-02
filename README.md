@@ -1,4 +1,4 @@
-# <img src=".idea/teaser.png" alt="Teaser" width="150"> Bisecle: Binding and Separation in Continual Learning for Video Language Understanding (NeurIPS 2025)
+# <img src=".idea/teaser.png" alt="Teaser" width="150"> Bisecle: Binding and Separation in Continual Learning for Video Language Understanding
 
 This repository provides the official implementation of **Bisecle**,
 
