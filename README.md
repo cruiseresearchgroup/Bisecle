@@ -1,10 +1,10 @@
-# <img src=".idea/teaser.png" alt="Teaser" width="150"> Bisecle: Binding and Separation in Continual Learning for Video Language Understanding
+# <img src=".idea/teaser.png" alt="Teaser" width="150"> Bisecle: Binding and Separation in Continual Learning for Video Language Understanding (NeurIPS 2025)
 
 This repository provides the official implementation of **Bisecle**,
 
 > **Bisecle: Binding and Separation in Continual Learning for Video Language Understanding**  
-> Yue Tan, Xiaoqian Hu, Hao Xue, Celso M de Melo, Flora D. Salim 
-> <!-- > **NeurIPS**, 2025   -->
+> *NeurIPS 2025*  
+> Yue Tan, Xiaoqian Hu, Hao Xue, Celso M de Melo, Flora D. Salim  
 > [[Paper](https://arxiv.org/pdf/2507.00469)]
 
 Bisecle is a neurobiology-inspired continual learning framework specifically designed for multimodal video-language understanding tasks. It addresses the critical issues of **catastrophic forgetting**, **update conflict**, and **semantic overlap** across sequential video question answering tasks. The model leverages a multi-directional supervision module alongside a contrastive prompt learning mechanism, significantly enhancing model stability and generalization capabilities.
